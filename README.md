@@ -5,6 +5,10 @@
 [![Pricing](https://img.shields.io/badge/Pricing-₹99_--_₹399_Flat-FE5116?style=for-the-badge)](https://www.portfoliostore99.in/#pricing-units)
 [![Hosting](https://img.shields.io/badge/Hosting-Free_on_Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 
+![PortfolioStore99 Website Preview](assets/portfoliostore-preview.png)
+
+*Official storefront preview of [PortfolioStore 99](https://www.portfoliostore99.in) — Production-ready developer portfolio templates starting at ₹99.*
+
 A comprehensive architectural specification, product catalog, brand design system, and marketing blueprint for **PortfolioStore 99** ([portfoliostore99.in](https://www.portfoliostore99.in)), the digital storefront for production-ready, unbundled developer portfolio templates.
 
 > **Repository Notice:** This repository contains official promotional planning, architectural specifications, and marketing documentation for PortfolioStore 99. It does **not** house the production storefront application, which is securely maintained in a separate private repository.
@@ -25,6 +29,7 @@ A comprehensive architectural specification, product catalog, brand design syste
 - [10. Documentation Index](#10-documentation-index)
 - [11. Architectural Boundaries](#11-architectural-boundaries)
 - [12. Implementation Status](#12-implementation-status)
+- [13. License & Proprietary Rights](#13-license--proprietary-rights)
 
 ---
 
@@ -192,6 +197,19 @@ To ensure operational stability and security:
 - [x] Legal policies and trust guidelines
 - [x] SEO, Schema.org, and AI discovery recommendations
 - [ ] **Promotional Website Implementation:** Pending separate authorization.
+
+---
+
+## 13. License & Proprietary Rights
+
+This repository contains official promotional documentation, architecture specifications, branding materials, visual assets, and product descriptions for **PortfolioStore 99**.
+
+> **Important Licensing Notice:**  
+> This is a promotional and documentation repository — **it is NOT an open-source codebase**, and its contents are **not** licensed under open-source terms (such as MIT or Apache). Public visibility on GitHub does not grant permission to copy, adapt, reproduce, redistribute, or commercially exploit any materials, documentation, screenshots, or branding contained herein.
+>
+> Furthermore, this repository does **not** grant any rights or licenses to the private PortfolioStore 99 application source code, commercial portfolio templates, customer materials, or commercial products. Third-party trademarks, services, and libraries referenced herein remain the property of their respective owners.
+
+For full legal terms, restrictions, and inquiries, please review the root [LICENSE](LICENSE) file. For questions or written permissions, contact [`portfoliostore99@gmail.com`](mailto:portfoliostore99@gmail.com).
 
 ---
 
