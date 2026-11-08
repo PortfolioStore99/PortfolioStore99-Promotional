@@ -1,0 +1,23 @@
+# Operating System Files
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Environment and Secrets
+.env
+.env*.local
+*.key
+*.pem
+
+# Editor and IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build Artifacts & Dependencies
+node_modules/
+.next/
+dist/
+build/
+*.log
