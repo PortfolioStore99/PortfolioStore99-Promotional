@@ -17,6 +17,7 @@ A comprehensive architectural specification, product catalog, brand design syste
 
 ## Table of Contents
 
+- [Quick start](#quick-start)
 - [1. Executive Summary](#1-executive-summary)
 - [2. Mission & Value Proposition](#2-mission--value-proposition)
 - [3. Verified Product Catalog & Live Previews](#3-verified-product-catalog--live-previews)
@@ -30,6 +31,66 @@ A comprehensive architectural specification, product catalog, brand design syste
 - [11. Architectural Boundaries](#11-architectural-boundaries)
 - [12. Implementation Status](#12-implementation-status)
 - [13. License & Proprietary Rights](#13-license--proprietary-rights)
+
+---
+
+## Quick start
+
+Follow this step-by-step customer walkthrough to browse, purchase, customize, and launch your developer portfolio with **[PortfolioStore 99](https://portfoliostore99.in)**:
+
+### 1. Browse Templates
+
+Visit [https://portfoliostore99.in](https://portfoliostore99.in) and explore the available portfolio templates and live demos.
+- Browse the verified catalog of 11 developer portfolio templates across diverse visual aesthetics, including clean single-page starter layouts, 3D Spline interactive scenes, Three.js isometric workspaces, retro CRT terminals, and macOS-style desktop environments.
+- Click the **Live Demo** button on any template to launch its production deployment on Vercel. You can test interactive 3D physics, theme toggles, audio visualizers, and mobile responsiveness directly on your device before purchasing.
+
+### 2. Choose & Purchase
+
+Select a suitable template and pricing tier matching your experience level and project requirements:
+
+- **Newbie: ₹99** — Clean, ultra-fast starter portfolios (e.g., [Outlet](https://www.portfoliostore99.in/templates/store-outlet)) designed for minimal footprint and maximum clarity.
+- **General: ₹199** — Feature-rich designs featuring interactive 3D Spline models, Three.js rooms, editorial manuscript layouts, or AI chatbot integration (e.g., [Star](https://www.portfoliostore99.in/templates/store-star), [HouseBlue](https://www.portfoliostore99.in/templates/store-houseblue), [Parchment](https://www.portfoliostore99.in/templates/store-parchment)).
+- **Premium: ₹399** — Advanced engineering stacks featuring Next.js 15, React 19, GSAP animations, WebGL fluid shaders, retro CRT monitors, or floating 3D island universes (e.g., [Desktop](https://www.portfoliostore99.in/templates/store-desktop), [Neon](https://www.portfoliostore99.in/templates/store-neon), [Typo](https://www.portfoliostore99.in/templates/store-typo), [3d-Home](https://www.portfoliostore99.in/templates/store-3dhome)).
+
+Complete the purchase through the available checkout process:
+1. Navigate to the template product page and click **Buy Template** to open the checkout page (`/checkout/[slug]`).
+2. Enter your **Full Name** and **Email Address** (used for payment receipt and persistent file access).
+3. Complete payment securely via the Razorpay Standard Checkout modal, supporting UPI (Google Pay, PhonePe, Paytm, QR code), Debit/Credit Cards, and Netbanking. All prices are flat one-time fees with zero recurring subscriptions.
+
+### 3. Receive Your Template
+
+Upon successful payment completion and cryptographic verification (HMAC-SHA256):
+- **Instant On-Screen Download:** You are immediately redirected to the confirmation page (`/thank-you?order_id=...`) with an **"Access Your Files (Google Drive)"** button for instant download of your template `.zip` package.
+- **Automated Email Receipt:** An automated confirmation email is dispatched via Resend to the email address provided during checkout, providing your Order ID, purchase details, and a persistent Google Drive download link for future re-downloads.
+- **Source Deliverables:** You receive the full unbundled, unminified source code (React, Next.js, or Vite), modular Tailwind CSS configurations, all static assets and 3D models (where applicable), and template-specific setup instructions.
+
+### 4. Customize Your Portfolio
+
+Extract the downloaded `.zip` archive on your local computer and open the project in your preferred code editor:
+1. Review the template's included documentation and README for specific architecture notes and requirements.
+2. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+3. Launch the local development server:
+   ```bash
+   npm run dev
+   ```
+4. Customize personal information, projects, images, skills, and other relevant content:
+   - Update your personal bio, headline, and contact details in the designated data or content configuration files.
+   - Replace project cards with your real projects, live deployment links, and GitHub repositories.
+   - Update technical skills, work experience, education timeline, and resume download links.
+   - Replace placeholder avatars and graphic assets with your personal imagery.
+
+### 5. Deploy Your Website
+
+Follow the template-specific deployment instructions and publish your portfolio using a supported hosting provider:
+- **Deploy to Vercel (Recommended):** Push your customized project to a personal GitHub repository and import it into [Vercel](https://vercel.com) for automated continuous deployments, or deploy directly via terminal:
+  ```bash
+  npx vercel
+  ```
+- **Alternative Hosting:** You can also deploy to supported platforms such as Netlify, Cloudflare Pages, or GitHub Pages based on your template's build configuration.
+- **Custom Domain:** Connect your custom personal domain (e.g., `yourname.com`) for free via your hosting dashboard without paying any recurring website builder fees.
 
 ---
 
